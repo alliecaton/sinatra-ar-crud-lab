@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html>
+    <% @articles.map do |article| %>
+        <h2><%= "#{article.title}" %></h2> <p><%= "#{article.content}" %></p><br>
+    <% end %>
+</html>
